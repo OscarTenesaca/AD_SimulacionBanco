@@ -1,0 +1,10 @@
+--Servidor: repaso1
+--ClienteREST: ClienteREST_Transaccion
+--Cambiar los datasource
+--Los clientes tienen saldo 0, primero hacer un deposito.
+
+INSERT INTO cuenta (numero,cedula,nombres,telefono, fechaApertura,saldoDisponible) VALUES
+('1010', '0123456789', 'Juan Calle', '0987654320', '10/03/2019', 0),
+('1111', '1123456789', 'Ana Romero', '0987654321', '03/04/2019', 0),
+('1212', '2123456789', 'Martin Crespo', '0987654322', '19/04/2019', 0)
+;
